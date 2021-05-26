@@ -1,0 +1,105 @@
+/* 定义字体图标名称  引用的路径*/
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont.woff2') format('woff2'),
+         url('../fonts/iconfont.woff') format('woff'),
+         url('../fonts/iconfont.ttf') format('truetype');
+  }
+  /* 定义字体图标的样式 名称一定要一样 Unicode定义*/
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+   /* symbol方式 */
+   .icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+  /* font class方式定义 */
+  .icon-location2:before {
+    content: "\e601";
+  }
+  
+  .icon-home2:before {
+    content: "\e602";
+  }
+  
+  .icon-shang:before {
+    content: "\e603";
+  }
+  
+  .icon-caidan:before {
+    content: "\e604";
+  }
+  
+  .icon-xiugai:before {
+    content: "\e605";
+  }
+  
+  .icon-yonghu:before {
+    content: "\e606";
+  }
+  
+  .icon-zuo:before {
+    content: "\e607";
+  }
+  
+  .icon-you:before {
+    content: "\e608";
+  }
+  
+  .icon-shezhi:before {
+    content: "\e609";
+  }
+  
+  .icon-xia:before {
+    content: "\e60a";
+  }
+  
+  .icon-sousuo:before {
+    content: "\e60b";
+  }
+  
+  .icon-fanhui:before {
+    content: "\e60c";
+  }
+  
+  .icon-shouji1:before {
+    content: "\e60d";
+  }
+  
+  .icon-mima:before {
+    content: "\e60e";
+  }
+  
+  .icon-wenjian1:before {
+    content: "\e60f";
+  }
+  
+  .icon-shanchu:before {
+    content: "\e610";
+  }
+  
+  .icon-wenjian:before {
+    content: "\e611";
+  }
+  
+  .icon-tianjia:before {
+    content: "\e612";
+  }
+  
+  .icon-jiazai:before {
+    content: "\e613";
+  }
+  
+  .icon-touxiang:before {
+    content: "\e614";
+  }
+ 
+  
